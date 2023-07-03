@@ -1,6 +1,4 @@
-# Gabriel Henrique Costa Cruzeiro - SC3037851
-# Pedro Candido Salvio - SC3037126
-
+# ENTRADA - jogadas feitas
 jogadas = list(map(int, input().split()))
 
 pontuacao_total = 0
@@ -86,5 +84,6 @@ for frame in range(10, 11):
     # Sem jogada bônus
     else:
         print(f"{jogadas[jogada_atual]} {jogadas[jogada_atual + 1]}")
-    
+
+# SAÍDA - Scoreboard
 print(pontuacao_total)
